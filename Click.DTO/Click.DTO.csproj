@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServicoDTO.cs" />
+    <Compile Include="ServicoListDTO.cs" />
     <Compile Include="UsuarioAutenticaDTO.cs" />
     <Compile Include="UsuarioDTO.cs" />
     <Compile Include="UsuarioListDTO.cs" />
