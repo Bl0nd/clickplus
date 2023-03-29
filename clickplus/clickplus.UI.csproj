@@ -67,6 +67,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\cadastro.css" />
+    <Content Include="css\filmes.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\media.css" />
+    <Content Include="css\media_cadastro.css" />
+    <Content Include="css\media_filmes.css" />
+    <Content Include="css\media_login.css" />
+    <Content Include="css\media_planos.css" />
+    <Content Include="css\media_series.css" />
+    <Content Include="css\planos.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\series.css" />
+    <Content Include="css\style.css" />
+    <Content Include="index.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="pages\css\cadastro.css" />
+    <Content Include="pages\css\filmes.css" />
+    <Content Include="pages\css\login.css" />
+    <Content Include="pages\css\media.css" />
+    <Content Include="pages\css\media_cadastro.css" />
+    <Content Include="pages\css\media_filmes.css" />
+    <Content Include="pages\css\media_login.css" />
+    <Content Include="pages\css\media_planos.css" />
+    <Content Include="pages\css\media_series.css" />
+    <Content Include="pages\css\planos.css" />
+    <Content Include="pages\css\reset.css" />
+    <Content Include="pages\css\series.css" />
+    <Content Include="pages\css\style.css" />
+    <Content Include="pages\script\jquery-3.6.1.min.js" />
+    <Content Include="pages\script\script.js" />
+    <Content Include="scripts\jquery-3.6.1.min.js" />
+    <Content Include="scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,12 +116,28 @@
     <Compile Include="DefaultUser.Master.designer.cs">
       <DependentUpon>DefaultUser.Master</DependentUpon>
     </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DefaultAdm.Master" />
     <Content Include="DefaultUser.Master" />
+    <Content Include="fonts\shlop-rg.otf" />
     <None Include="packages.config" />
+    <Content Include="pages\font\shlop-rg.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -99,9 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="content\" />
-    <Folder Include="fonts\" />
-    <Folder Include="pages\" />
-    <Folder Include="scripts\" />
+    <Folder Include="img\" />
+    <Folder Include="pages\img\" />
+    <Folder Include="video\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Click.BLL\Click.BLL.csproj">
