@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cadastro.aspx" />
     <Content Include="css\cadastro.css" />
     <Content Include="css\filmes.css" />
     <Content Include="css\login.css" />
@@ -80,6 +81,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\series.css" />
     <Content Include="css\style.css" />
+    <Content Include="filmes.aspx" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="pages\css\cadastro.css" />
@@ -97,11 +99,20 @@
     <Content Include="pages\css\style.css" />
     <Content Include="pages\script\jquery-3.6.1.min.js" />
     <Content Include="pages\script\script.js" />
+    <Content Include="planos.aspx" />
     <Content Include="scripts\jquery-3.6.1.min.js" />
     <Content Include="scripts\script.js" />
+    <Content Include="series.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cadastro.aspx.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastro.aspx.designer.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DefaultAdm.Master.cs">
       <DependentUpon>DefaultAdm.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -115,6 +126,13 @@
     </Compile>
     <Compile Include="DefaultUser.Master.designer.cs">
       <DependentUpon>DefaultUser.Master</DependentUpon>
+    </Compile>
+    <Compile Include="filmes.aspx.cs">
+      <DependentUpon>filmes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="filmes.aspx.designer.cs">
+      <DependentUpon>filmes.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -130,7 +148,21 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="planos.aspx.cs">
+      <DependentUpon>planos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="planos.aspx.designer.cs">
+      <DependentUpon>planos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="series.aspx.cs">
+      <DependentUpon>series.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="series.aspx.designer.cs">
+      <DependentUpon>series.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="DefaultAdm.Master" />
